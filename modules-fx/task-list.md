@@ -22,4 +22,6 @@
     * Falta la impresion del modulo en formato latex para realizar el reporte.
 
 ## Enumeracion de directorios
-
+    * Falta la impresion del modulo en formato latex para realizar el reporte.
+    * Cambiar el nombre a enumdir-module.py en vez de wfuzz-module.py
+    * Prueba Completa de Fuzzing para saber que si termina la tarea.
