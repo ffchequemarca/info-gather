@@ -11,6 +11,6 @@ def check_icmp_availability(target):
             return f"ICMP protocol is not available on {target} \n" + str(response)
             
     except Exception as e:
-        return f"An error occurred while checking ICMP availability: {str(e)}"
+        return f"An Error occurred while checking ICMP availability: {str(e)}"
         
 #Gestionamos el archivo.tex para la generacion de reportes.
