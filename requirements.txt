@@ -1,5 +1,7 @@
 whois==0.9.27
 ipwhois==1.2.0
 nslookup==1.7.0
-
+python-decouple==3.8 
+python-dotenv==1.0.0
+shodan-1.29.1
 

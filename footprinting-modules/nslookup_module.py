@@ -15,3 +15,10 @@ def get_nslookup_info(domain):
     nsresponse = nsresponse.replace("',", "', \n ")
     return nsresponse
 
+def get_ips(domain):
+    dns_query = Nslookup()
+    dns_query = Nslookup(dns_servers=["8.8.8.8"], verbose=True, tcp=False)
+    ips_record = dns_query.dns_lookup(domain)
+    ips_isolated=ips_record.answer
+    return ips_isolated
+
